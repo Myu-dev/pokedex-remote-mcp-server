@@ -5,7 +5,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "pokedex-remote-mcp-server",
-	"main": "src/index.ts",
+	"main": "src/index.js",
 	"compatibility_date": "2025-03-10",
 	"compatibility_flags": ["nodejs_compat"],
 	"migrations": [
@@ -22,14 +22,7 @@
 			},
 		],
 	},
-	"kv_namespaces": [
-		{
-			"binding": "OAUTH_KV",
-			"id": "82d61f8adf0e4f1d88a4ac0cd2b87f5d",
-		},
-	],
 	"observability": {
 		"enabled": true,
 	},
-	"assets": { "directory": "./static/", "binding": "ASSETS" },
 }
