@@ -1,5 +1,5 @@
 import { McpAgent } from "agents/mcp";
-import {McpServer} from "@modulecontextprotocol/sdk/server/mcp.js";
+import {McpServer} from "@modelcontextprotocol/sdk/server/mcp.js";
 import {registerTools} from "./tools/index.js"
 
 export class MyMCP extends McpAgent{
