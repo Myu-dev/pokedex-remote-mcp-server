@@ -21,7 +21,6 @@
 		"marked": "^18.0.5",
 		"oxfmt": "^0.56.0",
 		"oxlint": "^1.71.0",
-		"typescript": "6.0.3",
 		"wrangler": "^4.105.0"
 	}
 }
