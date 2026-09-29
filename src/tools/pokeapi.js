@@ -1,5 +1,5 @@
 import {z} from "zod";
-import {ok, fail, fetchJson} from "./lib/helpers.js";
+import {ok, fail, fetchJson} from "../lib/helpers.js";
 
 const API="https://pokeapi.co/api/v2";
 
