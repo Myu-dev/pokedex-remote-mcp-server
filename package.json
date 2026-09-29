@@ -12,13 +12,11 @@
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@cloudflare/workers-oauth-provider": "^0.8.1",
-		"agents": "^0.17.1",
-		"hono": "^4.12.27",
+		"@modelcontextprotocol/sdk": "^1.17.0",
+		"agents": "latest",
 		"zod": "^4.4.3"
 	},
 	"devDependencies": {
-		"marked": "^18.0.5",
 		"oxfmt": "^0.56.0",
 		"oxlint": "^1.71.0",
 		"wrangler": "^4.105.0"
